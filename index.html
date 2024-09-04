@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria EBAC</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        header{
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 16px;
+            color: rgb(150, 5, 5);
+        }
+        header a{
+            color: rgb(150, 5, 5);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="d-flex">
+        <h1>Livraria EBAC</h1>
+        <div>
+            <a href="">Login</a>
+        </div>
+    </header>
+    <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carrosel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img class="w-100" src="https://livrariadavila.vteximg.com.br/arquivos/ids/4244389/A%C3%A7%C3%A3odeimportados_Desk.png?v=638601248037430000" alt="Banner livros importados com desconto">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="w-100" src="https://livrariadavila.vteximg.com.br/arquivos/ids/5165675/banner%20damadeferro%20topo%201920x255px%20sempr%C3%A9venda%20DESK.png?v=638603837143700000" alt="Banner lançamento da sequência do livro Chama de Ferro">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="w-100" src="https://livrariadavila.vteximg.com.br/arquivos/ids/5121239/nexus%20banner%20topo%201920x255px%20DESK.png?v=638603602494030000" alt="Banner livro Nexus">
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" class="active" data-bs-target="#carrosel" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carrosel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carrosel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+    <div class="container mt-2 pt-2 border-top">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-2"><!--configuração da responsividade-->
+                <div class="card">
+                    <img src="https://livrariadavila.vteximg.com.br/arquivos/ids/3287440/EntregaExpressa_2_2023_415x127.jpg?v=638211471815970000" alt="Entrega Expressa">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-2"><!--configuração da responsividade-->
+                <div class="card">
+                    <img src="https://livrariadavila.vteximg.com.br/arquivos/ids/3285564/Fidelidade2023_415x127.jpg?v=638210765056870000" alt="Programa jeito de ler - Fidelidade">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-2"><!--configuração da responsividade-->
+                <div class="card">
+                    <img src="https://livrariadavila.vteximg.com.br/arquivos/ids/3285565/ValePresente2023_415x127.jpg?v=638210765056870000" alt="Vale Presente">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
